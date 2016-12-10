@@ -10,4 +10,4 @@ Replace the `objects.layout.scss` reference in your screen.scss file with `objec
 This plugins adds an additional modifier (`.o-layout--match`) to match the height of your layout items' content. Which makes equal sized blocks easy to construct.
 
 ## Credits
-- [InuitCSS](https://github.com/inuitcss/inuitcss) by [@csswizardry](https://twitter.com/csswizardry) for the ITcss architecture and tons of ideas and best practices.
+- [InuitCSS](https://github.com/inuitcss/inuitcss) by [@csswizardry](https://twitter.com/csswizardry)
