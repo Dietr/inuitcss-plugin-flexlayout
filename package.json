@@ -1,0 +1,16 @@
+{
+  "name": "inuitcss-plugin-flexlayout",
+  "version": "1.0.0",
+  "description": "A flexbox-base layout replacement for the default InuitCSS layout object.",
+  "main": "_objects.flexlayout.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dietr/inuitcss-plugin-flexlayout.git"
+  },
+  "author": "Dieter Peirs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dietr/inuitcss-plugin-flexlayout/issues"
+  },
+  "homepage": "https://github.com/Dietr/inuitcss-plugin-flexlayout#readme"
+}
