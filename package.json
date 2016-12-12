@@ -1,6 +1,6 @@
 {
   "name": "inuitcss-plugin-flexlayout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexbox-base layout replacement for the default InuitCSS layout object.",
   "main": "_objects.flexlayout.scss",
   "repository": {
