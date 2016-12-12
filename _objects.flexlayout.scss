@@ -217,22 +217,3 @@
 .o-layout--reverse {
   flex-direction: row-reverse;
 }
-
-
-
-
-
-/**
-* Match the height of all layout items and their child.
-*/
-
-.o-layout--match {
-   >  .o-layout__item {
-       display: flex;
-       align-content: stretch;
-   }
-
-   > .o-layout__item > * {
-      width: 100%;
-   }
-}
