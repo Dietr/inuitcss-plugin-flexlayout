@@ -73,20 +73,18 @@
   margin:  0; /* [2] */
   padding: 0; /* [2] */
   list-style: none; /* [1] */
-  margin-left: -$inuit-global-spacing-unit; /* [4] */
-  margin-right: -$inuit-global-spacing-unit; /* [4] */
+  margin: -$inuit-global-spacing-unit; /* [4] */
 }
 
 
   /**
    * 1. By default, all layout items are full-width (mobile first).
-   * 2. Gutters provided by left padding:
+   * 2. Gutters provided by padding:
    */
 
   .o-layout__item {
     width: 100%; /* [1] */
-    padding-left: $inuit-global-spacing-unit; /* [2] */
-    padding-right: $inuit-global-spacing-unit; /* [2] */
+    padding: $inuit-global-spacing-unit
   }
 
 
@@ -97,48 +95,40 @@
    ========================================================================== */
 
 .o-layout--tiny {
-  margin-left: -$inuit-global-spacing-unit-tiny;
-  margin-right: -$inuit-global-spacing-unit-tiny;
+  margin: -$inuit-global-spacing-unit-tiny;
 
   > .o-layout__item {
-    padding-left: $inuit-global-spacing-unit-tiny;
-    padding-right: $inuit-global-spacing-unit-tiny;
+    padding: $inuit-global-spacing-unit-tiny;
   }
 
 }
 
 
 .o-layout--small {
-  margin-left: -$inuit-global-spacing-unit-small;
-  margin-right: -$inuit-global-spacing-unit-small;
+  margin: -$inuit-global-spacing-unit-small;
 
   > .o-layout__item {
-    padding-left: $inuit-global-spacing-unit-small;
-    padding-right: $inuit-global-spacing-unit-small;
+    padding: $inuit-global-spacing-unit-small;
   }
 
 }
 
 
 .o-layout--large {
-  margin-left: -$inuit-global-spacing-unit-large;
-  margin-right: -$inuit-global-spacing-unit-large;
+  margin: -$inuit-global-spacing-unit-large;
 
   > .o-layout__item {
-    padding-left: $inuit-global-spacing-unit-large;
-    padding-right: $inuit-global-spacing-unit-large;
+    padding: $inuit-global-spacing-unit-large;
   }
 
 }
 
 
 .o-layout--huge {
-  margin-left: -$inuit-global-spacing-unit-huge;
-  margin-right: -$inuit-global-spacing-unit-huge;
+  margin: -$inuit-global-spacing-unit-huge;
 
   > .o-layout__item {
-    padding-left: $inuit-global-spacing-unit-huge;
-    padding-right: $inuit-global-spacing-unit-huge;
+    padding: $inuit-global-spacing-unit-huge;
   }
 
 }
