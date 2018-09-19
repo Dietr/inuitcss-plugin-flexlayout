@@ -135,12 +135,10 @@
 
 
 .o-layout--flush {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 
   > .o-layout__item {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
 
 }
